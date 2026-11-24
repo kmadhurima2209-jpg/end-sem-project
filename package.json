@@ -1,0 +1,22 @@
+{
+  "name": "home-services-fullstack",
+  "version": "4.0.0",
+  "description": "HomeServices - React + Redux Toolkit (RTK Query) frontend, Node.js REST API with JWT, MongoDB Atlas, deployable on Vercel",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node scripts/dev.js",
+    "build": "npm --prefix client run build",
+    "install:client": "npm --prefix client install"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.6",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.8.0"
+  },
+  
+       "engines": { "node": "26.x" },
+  
+  "license": "MIT"
+}
